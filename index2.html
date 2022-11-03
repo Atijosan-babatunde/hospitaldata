@@ -8,76 +8,93 @@
     <title>Document</title>
   </head>
   <body>
-    <table>
+        <div class="title">
+          <h2>GENERAL HOSPITAL SOMOLU</h2>
+          <p>QUALITY IMPROVEMENT FORM</p>
+        </div>
+
+        <div class="name">
+          <p>Parent's Name: <input type="text" class="pName"></p>
+          <p>Age: <input type="text"></p>
+          <p>Status: Booked/Unblooked </p>
+
+        </div>
+         <div class="name">
+          <p>Diagnosis: <input type="text"></p>
+          <p>Source's of Referral: <input type="text"></p>          
+        </div> 
+
+        <div class="over">
+ <table>
         <!-- Roll one -->
       <tr>
-        <td>CORRECT PANTOGRAPH USAGE</td>
-        <td colspan="12">RRR</td>
+        <td class="ext">CORRECT PANTOGRAPH USAGE</td>
+        <td class="ext" colspan="12">RRR</td>
       </tr>
         <!-- Roll two -->
       <tr style="width: 100%;">
         <tr>
-            <td rowspan="2">OXTOTICS USAGE</td>
-            <td colspan="2">yes</td>
-            <td colspan="2">abd</td>
+            <td class="ext" rowspan="2">OXTOTICS USAGE</td>
+            <td class="ext YES" colspan="2">yes</td>
+            <td class="ext YES" colspan="2">abd</td>
+            <td rowspan="2" colspan="2">DOSAGE</td>
             <td rowspan="2">DOSAGE</td>
-            <td rowspan="2">DOSAGE</td>
-            <td colspan="2">yes</td>
-            <td colspan="2">abd</td>
-            <td rowspan="2"><input type="text" /></td>
+            <td class="ext YES" colspan="2">yes</td>
+            <td class="ext YES" colspan="2">abd</td>
+            <td class="ext input"rowspan="2"><input type="text" /></td>
         </tr>
         <tr>
-            <td colspan="2">no</td>
-            <td colspan="2">not</td>
-            <td colspan="2">yes</td>
-            <td colspan="2">abd</td>
+            <td class="ext YES" colspan="2">no</td>
+            <td class="ext YES" colspan="2">not</td>
+            <td class="ext YES" colspan="2">yes</td>
+            <td class="ext YES" colspan="2">abd</td>
         </tr>
       </tr>
         <!-- Roll three -->
       <tr>
         <td class="ext" colspan="">MAGNISIUM SULPHATE ADMINISTATION</td>
-        <td class="ext" colspan="2">YES</td>
-        <td class="ext" colspan="2"><input type="text" /></td>
-        <td class="ext" colspan="2">NO</td>
-        <td class="ext" colspan="2"><input type="text" /></td>
+        <td class="ext" colspan="4">YES</td>
+        <td class="ext input" colspan="2"><input type="text" /></td>
+        <td class="ext" colspan="4">NO</td>
+        <td class="ext input" colspan="2"><input type="text" /></td>
       </tr>
 
         <!-- Roll four -->
       <tr style="width: 100%;">
         <tr>
             <td rowspan="2">NEONATAL DEATH</td>
-            <td colspan="2">yes</td>
-            <td colspan="2">abd</td>
+            <td  class="ext YES"  colspan="2">yes</td>
+            <td  class="ext YES"  colspan="2">abd</td>
             <td rowspan="2">DOSAGE</td>
             <td rowspan="2" colspan="4">CAUSE DATE</td>
-            <td rowspan="2"><input type="text" /></td>
-            <td rowspan="2"><input type="text" /></td>
+            <td class="ext input" rowspan="2"><input type="text" /></td>
+            <td class="ext input"rowspan="2" colspan="4"><input type="text" /></td>
         </tr>
         <tr>
-            <td colspan="2">no</td>
-            <td colspan="2">not</td>
+            <td  class="ext YES"  colspan="2">no</td>
+            <td  class="ext YES"  colspan="2">not</td>
         </tr>
       </tr>
         <!-- Roll five -->
       <tr>
         <td class="ext" colspan="">OHLORHEXIDINE USAGE</td>
-        <td class="ext" colspan="4">YES</td>
-        <td class="ext" colspan="2"><input type="text" /></td>
-        <td class="ext" colspan="4">NO</td>
-        <td class="ext" colspan="2"><input type="text" /></td>
+        <td  class="ext YES"  colspan="4">YES</td>
+        <td  class="ext input"  colspan="2"><input type="text" /></td>
+        <td  class="ext YES "  colspan="4">NO</td>
+        <td class="ext input" colspan="2"><input type="text" /></td>
       </tr>
         <!-- Roll six -->
       <tr style="width: 100%;">
         <tr>
             <td rowspan="4">BREASTFEEDING INIATION WITHIN 1HR</td>
-            <td colspan="2">yes</td>
+            <td  class="ext YES"  colspan="2">yes</td>
             <td rowspan="4" colspan="4">TIME OF BIRST</td>
-            <td rowspan="4"><input type="text" /></td>
-            <td rowspan="4" colspan="4">CAUSE DATE</td>
-            <td rowspan="4"><input type="text" /></td>
+            <td class="ext input"rowspan="4"><input type="text" /></td>
+            <td  rowspan="4" colspan="4">CAUSE DATE</td>
+            <td class="ext input" rowspan="4"><input type="text" /></td>
         </tr>
         <tr>
-            <td colspan="2">no</td>
+            <td  class="ext YES"  colspan="2">no</td>
         </tr>
       </tr>
       </table>
@@ -87,12 +104,12 @@
         <tr style="width: 100%;">
         <tr>
             <td rowspan="2">ANTIBIOTICS GIVEN TO BABY</td>
-            <td colspan="4">yes</td>
-            <td rowspan="6">DOSAGE</td>
+            <td  class="ext YES"  colspan="4">yes</td>
+            <td rowspan="2" colspan="8">DOSAGE</td>
            
         </tr>
         <tr>
-            <td colspan="4">no</td>
+            <td  class="ext YES"  colspan="4">no</td>
         </tr>
       </tr>
 
@@ -100,12 +117,12 @@
       <tr style="width: 100%;">
         <tr>
             <td >MODE OF DELIVERY</td>
+            <td class="ext YES"  >ELCS</td>
+            <td class="ext input"><input type="text"></td>
             <td >ELCS</td>
-            <td ><input type="text"></td>
-            <td >ELCS</td>
-            <td><input type="text"></td>        
-            <td >no</td>
-            <td ><input type="text"></td>
+            <td class="ext input"><input type="text"></td>        
+            <td  class="ext YES" >SVD</td>
+            <td class="ext input"><input type="text"></td>
         </tr>
       </tr>
 
@@ -113,11 +130,18 @@
       <tr>
         <td class="ext" colspan="">VITAMIN K ADMINISTATION</td>
         <td class="ext" colspan="4">YES</td>
-        <td class="ext" colspan="2"><input type="text" /></td>
+        <td class="ext input"class="ext" colspan="2"><input type="text" /></td>
         <td class="ext" colspan="4">NO</td>
-        <td class="ext" colspan="2"><input type="text" /></td>
+        <td class="ext input"class="ext" colspan="2"><input type="text" /></td>
       </tr>
      
     </table>
+        </div>
+
+        <div class="SIGN">
+                  _______________________________________
+
+        </div>
+   
   </body>
 </html>
